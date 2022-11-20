@@ -1,0 +1,18 @@
+.anim-body {
+    margin: 0;
+    padding: 0;
+
+    visibility: initial;
+    animation: noise 0.5s steps(10) infinite;
+}
+
+@keyframes noise
+{
+    0%{
+        background-position: 0 0;
+    }
+
+    100%{
+        background-position: 100% 100%;
+    }
+}

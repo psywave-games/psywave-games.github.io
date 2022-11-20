@@ -1,0 +1,11 @@
+.old-link {
+    padding: 2px;
+    color: white;
+    display: inline-block;
+    background-color: blue;
+}
+
+.old-link:hover {
+    color: blue;
+    background-color: yellow!important;
+}

@@ -1,0 +1,14 @@
+.block-center {
+    text-align: center;
+    display: block;
+}
+
+.magin32h {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 600px;
+}
