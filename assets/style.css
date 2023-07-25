@@ -1,5 +1,7 @@
 .old-link {
-    padding: 2px;
+    margin: 2px;
+    padding: 8px;
+    line-height: 1.8em;
     color: white;
     display: inline-block;
     background-color: blue;
@@ -8,4 +10,17 @@
 .old-link:hover {
     color: blue;
     background-color: yellow!important;
+}
+
+.old-link span {
+    float: left;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+@media (max-width: 600px)
+{
+    .old-link {
+        display: block;
+    }
 }
